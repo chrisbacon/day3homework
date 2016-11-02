@@ -173,7 +173,7 @@ users["Erik"][:favourite_numbers]
 4. Return the type of Avril's pet Colin
 
 ```
-users["Avril"][:Colin].class
+users["Avril"]["colin"].class
 ```
 
 5. Return the smallest of Erik's favorite numbers
