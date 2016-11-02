@@ -7,30 +7,45 @@ lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'P
 ```
 
 1. Work out how many stops there are in the current west array
+
+```
 number_of_stops = lines.length
+```
 
 2. Return 'Edinburgh Park' from the array
+
+```
 lines[1]
+```
 
 3. How many ways can we return 'Princes Street' from the array?
+
+```
 lines.pop(), lines[4], lines[-1]
+```
 
 4. Work out the index position of 'Haymarket' 
 
+```
 counter = 0
 while lines[counter] != 'Haymarket'
   counter += 1
 end
 
 puts counter 
+```
 
 5. Add 'Airport' to the start of the array 
 
+```
 lines.unshift('Airport')
+```
 
 6. Add 'York Place' to the end of the array
 
+```
 lines.push('York Place')
+```
 
 7. Remove 'Edinburgh Park' from the array using it's name 
 
